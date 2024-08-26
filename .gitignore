@@ -1,0 +1,46 @@
+# Ignore Visual Studio Code specific files
+.vscode/
+.vscode/*
+
+# Ignore build directories
+build/
+Build/
+bin/
+Bin/
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore compiled object files and libraries
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore dependency files
+*.d
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore other IDE specific files
+.idea/
+*.iml
